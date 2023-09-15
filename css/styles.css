@@ -7,9 +7,9 @@ background-color: #FFFFFF;
 nav > ul {
     list-style: none;
 }
+
 address {
-    font-style: normal;
-    
+    font-style: normal;  
 }
 
 button {
@@ -25,7 +25,12 @@ a {
     font-weight: 400;    
 }
 
-.contacts-phone-number 
+.contacts-phone-number {
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--SLATE, #434455);
+    }
+
 .contacts-post-email {
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -69,7 +74,7 @@ color: var(--WHITE, #FFF);
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--NAVY-BLUE, #2E2F42);
 }
 .subtitle-title {
     font-weight: 500;
@@ -128,10 +133,12 @@ color: var(--NAVY-BLUE, #2E2F42);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--NAVY-BLUE, #2E2F42);
 }
-.menu-item-site:hover 
-.menu-item-site:focus{
+.menu-item-site:hover {
+    color: #404bbf;
+}
+.menu-item-site:focus {
     color: #404bbf;
 }
  
