@@ -71,12 +71,12 @@ color: var(--WHITE, #FFF);
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.subtitle-title {
+.subtitle-title .photo-team-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--NAVY-BLUE, #2E2F42);
 }
 .subtitle-photo {
     font-size: 36px;
@@ -169,6 +169,28 @@ color: var(--NAVY-BLUE, #2E2F42);
 .footer-ingredient {
     color: var(--CLOUD, #F4F4FD);
 }
+.photo-team {
+    background-color: #F4F4FD;
+}
+.photo-team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--NAVY-BLUE, #2E2F42);;
+}
+.photo-team-face {
+    ackground-color: #FFFFFF;
+
+}
+.photo-team-position {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
 .footer {
     background: var(--NAVY-BLUE, #2E2F42);
        
