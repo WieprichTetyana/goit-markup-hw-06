@@ -35,6 +35,7 @@ a {
 background: var(--NAVY-BLUE, #2E2F42);
 }
 .hero-button {
+    font-family: Roboto, sans-serif;
     border-radius: 4px;
     background: var(--IRIS, #4D5AE5);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -46,13 +47,13 @@ background: var(--NAVY-BLUE, #2E2F42);
     letter-spacing: 0.04em;
     
 }
-.hero-button:hover {
+.hero-button:hover 
+.hero-button:focus{
     background-color: #404bbf;
+    
 }
-.hero-button:focus {
-    background-color: #404bbf;
-}
-h1 {
+ 
+.title-main {
 color: var(--WHITE, #FFF);
     text-align: center;
     font-family: Roboto, sans-serif;
@@ -62,16 +63,27 @@ color: var(--WHITE, #FFF);
     line-height: 1.07;
     letter-spacing: 1.12px;
 }
-h2 {
+.subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-h3 {
-
+.subtitle-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
+.subtitle-photo {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+text-transform: capitalize;
+}
+
 .direction-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -109,12 +121,11 @@ h3 {
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.menu-item-site:hover {
+.menu-item-site:hover 
+.menu-item-site:focus{
     color: #404bbf;
 }
-.menu-item-site:focus {
-    color: #404bbf;
-}
+ 
 .menu-item-portfolio {
     font-weight: 500;
         font-size: 16px;
@@ -122,12 +133,11 @@ h3 {
         letter-spacing: 0.02em;
         color: #2E2F42;
 }
-.menu-item-portfolio:hover {
+.menu-item-portfolio:hover 
+.menu-item-portfolio:focus{
     color: #404bbf;
 }
-.menu-item-portfolio:focus {
-    color: #404bbf;
-}
+ 
 .menu-item-contacts {
     font-weight: 500;
         font-size: 16px;
@@ -159,8 +169,7 @@ h3 {
 }
 .footer {
     background: var(--NAVY-BLUE, #2E2F42);
-    
-   
+       
 }
 .footer-text {
     color: var(--CLOUD, #F4F4FD);
