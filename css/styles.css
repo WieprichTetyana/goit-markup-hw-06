@@ -142,17 +142,7 @@ color: var(--NAVY-BLUE, #2E2F42);
     color: #404bbf;
 }
  
-.menu-item-portfolio {
-    font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #2E2F42;
-}
-.menu-item-portfolio:hover 
-.menu-item-portfolio:focus{
-    color: #404bbf;
-}
+
  
 .menu-item-contacts {
     font-weight: 500;
