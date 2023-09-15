@@ -19,17 +19,16 @@ a {
     text-decoration: none;
 }
 .contacts > a {
-    color: var(--SLATE, #434455);
     font-family: Roboto, sans-serif;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-    list-style: none;
+    font-weight: 400;    
 }
-.contacts > li {
-    list-style: none;
+
+.contacts-phone-number 
+.contacts-post-email {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--SLATE, #434455);
 }
 .hero{
@@ -41,7 +40,17 @@ background: var(--NAVY-BLUE, #2E2F42);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: var(--WHITE, #FFF);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     
+}
+.hero-button:hover {
+    background-color: #404bbf;
+}
+.hero-button:focus {
+    background-color: #404bbf;
 }
 h1 {
 color: var(--WHITE, #FFF);
@@ -50,8 +59,22 @@ color: var(--WHITE, #FFF);
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 1.12px;
+}
+h2 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+h3 {
+
+}
+.direction-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .header {
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
@@ -78,10 +101,40 @@ color: var(--WHITE, #FFF);
         
         letter-spacing: 0.32px;
 }
-.menu:active {
-color: var(--IRIS, #4D5AE5);
-}
 
+.menu-item-site {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.menu-item-site:hover {
+    color: #404bbf;
+}
+.menu-item-site:focus {
+    color: #404bbf;
+}
+.menu-item-portfolio {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+.menu-item-portfolio:hover {
+    color: #404bbf;
+}
+.menu-item-portfolio:focus {
+    color: #404bbf;
+}
+.menu-item-contacts {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
 .logo {
     color: var(--IRIS, #4D5AE5);
         font-family: Raleway, sans-serif;
@@ -92,6 +145,12 @@ color: var(--IRIS, #4D5AE5);
         letter-spacing: 0.54px;
         text-transform: uppercase;
 }
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
 .header-ingredient {
         color: var(--NAVY-BLUE, #2E2F42);
 }
@@ -100,7 +159,11 @@ color: var(--IRIS, #4D5AE5);
 }
 .footer {
     background: var(--NAVY-BLUE, #2E2F42);
+    
+   
 }
 .footer-text {
     color: var(--CLOUD, #F4F4FD);
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
