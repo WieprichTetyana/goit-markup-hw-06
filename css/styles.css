@@ -47,10 +47,11 @@ background: var(--NAVY-BLUE, #2E2F42);
     letter-spacing: 0.04em;
     
 }
-.hero-button:hover 
-.hero-button:focus{
+.hero-button:hover {
     background-color: #404bbf;
-    
+}
+.hero-button:focus {
+    background-color: #404bbf;
 }
  
 .title-main {
@@ -82,6 +83,7 @@ color: var(--WHITE, #FFF);
     line-height: 1.11;
     text-align: center;
 text-transform: capitalize;
+color: var(--NAVY-BLUE, #2E2F42);
 }
 
 .direction-text {
