@@ -110,8 +110,8 @@ background: var(--NAVY-BLUE, #2E2F42);
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-text-transform: capitalize;
-color: var(--NAVY-BLUE, #2E2F42);
+    text-transform: capitalize;
+    color: var(--NAVY-BLUE, #2E2F42);
 }
 
 .direction-text {
@@ -209,6 +209,20 @@ color: var(--NAVY-BLUE, #2E2F42);
 .menu-button:focus {
     color: #fff;
     background-color: #404BBF;
+}
+.list-photo-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--NAVY-BLUE-MODAL, #2E2F42);
+
+}
+.list-photo-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--SLATE, #434455);
 }
 .footer {
     background: var(--NAVY-BLUE, #2E2F42);
