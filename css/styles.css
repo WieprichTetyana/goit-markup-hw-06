@@ -1,12 +1,17 @@
+:root {
+   --primary-font: Roboto, sans-serif;
+   --secondary-font:Raleway,sans-serif;
+}
+
 body {
-font-family: Roboto, sans-serif;
+font-family: var(--primary-font);
 color: #434455;
 background-color: #FFFFFF;
 }
 
 .logo {
     color: var(--IRIS, #4D5AE5);
-        font-family: Raleway, sans-serif;
+        font-family: var(--secondary-font);
         font-size: 18px;
         font-style: normal;
         font-weight: 800;
