@@ -151,8 +151,8 @@ background: var(--NAVY-BLUE, #2E2F42);
     letter-spacing: 0.02em;
     color: var(--NAVY-BLUE, #2E2F42);
 }
-.menu-item-site:hover, 
-.menu-item-site:focus {
+.menu-item .menu-item-site:hover, 
+.menu-item .menu-item-site:focus {
     color: #404bbf;
 }
   
