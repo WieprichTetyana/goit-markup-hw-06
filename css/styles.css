@@ -73,12 +73,11 @@ background: var(--NAVY-BLUE, #2E2F42);
     letter-spacing: 0.04em;
     
 }
-.hero-button:hover {
-    background-color: #404bbf;
-}
+.hero-button:hover,
 .hero-button:focus {
     background-color: #404bbf;
 }
+ 
  
 .title-main {
     color: var(--WHITE, #FFF);
@@ -154,15 +153,11 @@ background: var(--NAVY-BLUE, #2E2F42);
     letter-spacing: 0.02em;
     color: var(--NAVY-BLUE, #2E2F42);
 }
-.menu-item-site:hover {
-    color: #404bbf;
-}
+.menu-item-site:hover, 
 .menu-item-site:focus {
     color: #404bbf;
 }
- 
-
- 
+  
 .menu-item-contacts {
     font-weight: 500;
         font-size: 16px;
@@ -207,14 +202,12 @@ background: var(--NAVY-BLUE, #2E2F42);
     cursor: pointer;
 }
 
-.menu-button:hover {
-    color: #fff;
-    background-color: #404BBF;
-}
+.menu-button:hover, 
 .menu-button:focus {
     color: #fff;
     background-color: #404BBF;
 }
+ 
 .list-photo-name {
     font-weight: 500;
     font-size: 20px;
