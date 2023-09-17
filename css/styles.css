@@ -122,7 +122,6 @@ background: var(--NAVY-BLUE, #2E2F42);
     letter-spacing: 0.02em;
 }
 .header {
-    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--WHITE, #FFF);
    
 }
