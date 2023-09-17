@@ -4,6 +4,22 @@ color: #434455;
 background-color: #FFFFFF;
 }
 
+.logo {
+    color: var(--IRIS, #4D5AE5);
+        font-family: Raleway, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+}
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
 nav > ul {
     list-style: none;
 }
@@ -60,7 +76,7 @@ background: var(--NAVY-BLUE, #2E2F42);
 }
  
 .title-main {
-color: var(--WHITE, #FFF);
+    color: var(--WHITE, #FFF);
     text-align: center;
     font-family: Roboto, sans-serif;
     font-size: 56px;
@@ -118,13 +134,11 @@ color: var(--NAVY-BLUE, #2E2F42);
 } 
 .menu-item > a {
     color: var(--NAVY-BLUE, #2E2F42);
-        
         font-family: Roboto, sans-serif ;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
-        line-height: 24px;
-        
+        line-height: 24px;      
         letter-spacing: 0.32px;
 }
 
@@ -151,22 +165,7 @@ color: var(--NAVY-BLUE, #2E2F42);
         letter-spacing: 0.02em;
         color: #2E2F42;
 }
-.logo {
-    color: var(--IRIS, #4D5AE5);
-        font-family: Raleway, sans-serif;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 1.17;
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
-}
-.link {
-    text-decoration: none;
-}
-.list {
-    list-style: none;
-}
+
 .header-ingredient {
         color: var(--NAVY-BLUE, #2E2F42);
 }
@@ -192,8 +191,25 @@ color: var(--NAVY-BLUE, #2E2F42);
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.menu-button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--IRIS, #4D5AE5);
+    background-color: var(--CLOUD, #f4f4fd);
+    cursor: pointer;
+}
 
-
+.menu-button:hover {
+    color: #fff;
+    background-color: #404BBF;
+}
+.menu-button:focus {
+    color: #fff;
+    background-color: #404BBF;
+}
 .footer {
     background: var(--NAVY-BLUE, #2E2F42);
        
