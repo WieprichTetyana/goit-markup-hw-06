@@ -7,6 +7,8 @@ body {
 font-family: var(--primary-font);
 color: #434455;
 background-color: #FFFFFF;
+width: 1440px;
+height: 2592px;
 }
 
 .logo {
@@ -155,15 +157,15 @@ background: var(--NAVY-BLUE, #2E2F42);
 }
 .menu-item-site:hover, 
 .menu-item-site:focus {
-    color: var(--OCEAN, #404bbf);
+    color: #404bbf;
 }
   
 .menu-item-contacts {
     font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #2E2F42;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
 .header-ingredient {
