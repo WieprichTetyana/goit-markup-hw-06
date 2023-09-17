@@ -155,7 +155,7 @@ background: var(--NAVY-BLUE, #2E2F42);
 }
 .menu-item-site:hover, 
 .menu-item-site:focus {
-    color: #404bbf;
+    color: var(--OCEAN, #404bbf);
 }
   
 .menu-item-contacts {
