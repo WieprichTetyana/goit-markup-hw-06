@@ -151,9 +151,9 @@ background: var(--NAVY-BLUE, #2E2F42);
     letter-spacing: 0.02em;
     color: var(--NAVY-BLUE, #2E2F42);
 }
-.menu-item .menu-item-site:hover, 
-.menu-item .menu-item-site:focus {
-    color: #404bbf;
+.nav .menu-item-site:hover, 
+.nav .menu-item-site:focus {
+    color: var(--OCEAN, #404bbf);
 }
   
 .menu-item-contacts {
