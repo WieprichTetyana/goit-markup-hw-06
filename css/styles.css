@@ -55,7 +55,7 @@ a {
 .contacts-phone-number:focus,
 .contacts-post-email:hover,
 .contacts-post-email:focus {
-    color: var(--OCEAN, #404bbf);
+    color: #404bbf;
 }
 
 .contacts-post-email {
