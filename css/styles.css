@@ -56,7 +56,7 @@ a {
 }
 
 .contacts-phone-number:focus {
-    
+    color: var(--OCEAN, #404bbf);
 }    
 
 .contacts-post-email {
@@ -69,7 +69,7 @@ a {
     color: var(--OCEAN, #404bbf);
 }
 .contacts-post-email:focus {
-    
+    color: var(--OCEAN, #404bbf);
 }
 .hero{
 background: var(--NAVY-BLUE, #2E2F42);
