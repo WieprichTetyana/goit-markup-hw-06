@@ -51,8 +51,12 @@ a {
         letter-spacing: 0.02em;
         color: var(--SLATE, #434455);
     }
-.contacts-phone-number:hover {
+.contacts-phone-number:hover{
     color: var(--OCEAN, #404bbf);
+}
+
+.contacts-phone-number:focus {
+    
 }    
 
 .contacts-post-email {
@@ -61,9 +65,11 @@ a {
     color: var(--SLATE, #434455);
 }
 
-.contacts-post-email:hover,
-.contacts-post-email:focus {
+.contacts-post-email:hover{
     color: var(--OCEAN, #404bbf);
+}
+.contacts-post-email:focus {
+    
 }
 .hero{
 background: var(--NAVY-BLUE, #2E2F42);
