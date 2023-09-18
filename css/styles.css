@@ -51,6 +51,10 @@ a {
         letter-spacing: 0.02em;
         color: var(--SLATE, #434455);
     }
+.contacts-phone-number:hover,
+.contacts-phone-number:focus {
+    color: #404bbf;
+}    
 
 .contacts-post-email {
     line-height: 1.5;
