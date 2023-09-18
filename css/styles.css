@@ -46,23 +46,17 @@ a {
     font-weight: 400;    
 }
 
-.contacts-phone-number {
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--SLATE, #434455);
-    }
-.contacts-phone-number:hover, 
-.contacts-phone-number:focus,
-.contacts-post-email:hover,
-.contacts-post-email:focus {
-    color: #404bbf;
-}
-
-.contacts-post-email {
+.contacts-address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--SLATE, #434455);
 }
+
+.contacts-address:hover, 
+.contacts-address:focus {
+    color: #404bbf;
+}
+
 
 .hero{
 background: var(--NAVY-BLUE, #2E2F42);
