@@ -25,6 +25,10 @@ body {
 
 /* Header */
 
+address {
+   font-style: normal; 
+}
+
 .header {
     background-color: var(--color-primary);
 }
@@ -79,7 +83,7 @@ a {
 /* Hero section*/
 
 .hero {
-    background: var(---accent-color);
+    background: var(--accent-color);
 }
 
 .title-main {
