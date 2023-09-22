@@ -178,12 +178,7 @@ header-nav > ul {
 }
 
 .feature-item {
-    width: calc((100% - 72px) / 4);
-    display: flex;
-        width: 264px;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 8px;
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .feature-subtitle {
@@ -358,7 +353,6 @@ feature .logo {
 footer .logo {
     display: inline-block;
     margin-bottom: 16px;
-    display: flex;
 }
 
 .footer-link {
