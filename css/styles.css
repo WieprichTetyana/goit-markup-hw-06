@@ -84,7 +84,7 @@
     letter-spacing: 0.02em;
     color: var(--text-color);
     display: block;
-    padding: 32px 0;
+    padding: 24px 0;
 }
 
 .header-phone {}
@@ -364,5 +364,5 @@ footer .logo {
     color: var(--color-light);
     letter-spacing: 0.02em;
     line-height: 1.5;
-    margin-top: 16px;
+    width: 264px;
 }
