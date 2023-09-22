@@ -59,7 +59,7 @@ align-items: center;
     letter-spacing: 0.02em;
     color: var(--accent-color);
     display: block;
-        padding: 24px 0;
+    padding: 24px 0;
 }
 
 .header-address {
@@ -76,6 +76,7 @@ align-items: center;
     gap: 40px;
 }
 .header-post {}
+
 .header-post-wrapper {
     display: flex;
 }
@@ -267,11 +268,14 @@ font-weight: 500;
     padding-bottom: 120px;
 }
 
- .portfolio-wrapper {}
-
  .portfolio-title {}
 
- .portfolio-button-wrapper {}
+ .portfolio-button-wrapper {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+ }
 
  .portfolio-button-list {
     display: flex;
@@ -314,15 +318,13 @@ font-weight: 500;
  .portfolio-img-item {
     width: calc((100% - 48px) / 3);
  }
-.portfolio-wrapper {
+./*portfolio-wrapper {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
-}
+} */
  .portfolio-img-link {}
-
- 
 
  .portfolio-subtitle {
     font-weight: 500;
