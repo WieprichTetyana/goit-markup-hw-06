@@ -3,10 +3,16 @@
     background-color: var(--color-primary);
 }
 
-.container {}
-
-.header-nav {}
-
+.header-nav {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .logo {
     color: var(--text-color-secondary);
     font-size: 18px;
@@ -15,13 +21,26 @@
     letter-spacing: 0.54px;
     line-height: 1.17;
     text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    margin-right: 76px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+    
 }
 
 .header-logo {
     color: var(--accent-color);
 }
 
-.header-menu {}
+.header-list {
+   display: flex;
+align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-right: 332px;
+}
 
 .header-item {
     color: var(--accent-color);
@@ -38,18 +57,35 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--accent-color);
+    display: block;
+        padding: 32px 0;
 }
 
-.header-address {}
+.header-address {
+   
+}
 
-.header-social {}
-
+.header-social {
+    
+}
+.wrapper{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
 .header-post {}
-
+.header-post-wrapper {
+    display: flex;
+}
+.header-post-wrapper {
+    display: flex;
+}
 .header-social-link {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color);
+    display: block;
+    padding: 32px 0;
 }
 
 .header-phone {}
@@ -156,7 +192,11 @@ header-nav > ul {
     text-transform: capitalize;
     color: var(--accent-color);;
 }
-
+.team-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 .team-item {
     background-color: var(--color-primary);
 }
@@ -171,19 +211,31 @@ header-nav > ul {
 
 /* Portfolio section */
      
-.menu-item-contacts {
+/*.menu-item-contacts {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--accent-color);
 }
+*/
+.portfolio {}
 
-.team-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.portfolio-wrapper {
 }
+.portfolio-wrapper-list {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 24px;
+
+}
+.portfolio-title {}
+
+.portfolio-button-list {
+    display: flex;
+}
+
+.portfolio-item {}
 
 .portfolio-button {
     font-family: var(--primary-font);
@@ -194,7 +246,11 @@ header-nav > ul {
     color: var(--text-color-secondary);
     background-color: var(--color-light);
     cursor: pointer;
+    padding: 12px 24 px;
 }
+
+
+
 
 .portfolio-button:hover, 
 .portfolio-button:focus {
