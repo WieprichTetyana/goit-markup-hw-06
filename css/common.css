@@ -8,7 +8,9 @@
     --accent-color: #2E2F42;
     --color-light: #F4F4FD;
 }
-
+img {
+    display: block;
+}
 body {
     font-family: var(--primary-font);
     color: var(--text-color);

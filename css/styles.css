@@ -1,11 +1,12 @@
 /* Header */
 .header {
     background-color: var(--color-primary);
+    border-bottom: 1px solid #e7e9fc
 }
 
 .header-nav {
     display: inline-flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 40px;
 }
 .header-container {
@@ -58,7 +59,7 @@ align-items: center;
     letter-spacing: 0.02em;
     color: var(--accent-color);
     display: block;
-        padding: 32px 0;
+        padding: 24px 0;
 }
 
 .header-address {
@@ -66,7 +67,8 @@ align-items: center;
 }
 
 .header-social {
-    
+    display: flex;
+    gap: 40px;
 }
 .wrapper{
     display: flex;
@@ -277,11 +279,15 @@ header-nav > ul {
 
 .footer {
     background: var(--accent-color);  
+    padding: 100px 0;
 }
 
 .container {}
 
-.logo {}
+.logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
 
 .link {}
 
