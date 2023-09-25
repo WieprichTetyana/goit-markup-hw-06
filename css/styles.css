@@ -170,6 +170,9 @@ header-nav > ul {
     color: var(--accent-color);
 }
 
+.feature-icon {
+    flex-shrink: 0;    
+}
 .feature-list {
     display: flex;
     gap: 24px; 
@@ -179,6 +182,7 @@ header-nav > ul {
 
 .feature-item {
     flex-basis: calc((100% - 72px) / 4);
+
 }
 
 .feature-subtitle {
@@ -227,6 +231,9 @@ feature .logo {
     background-color: var(--color-light);
     padding: 120px 0;
 }
+.team-img{
+
+}
 .team-title {
      font-size: 36px;
     line-height: 1.11;
@@ -265,9 +272,38 @@ feature .logo {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px
 }
-
-
+.social-list-icon{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.social-icon {
+    color: var(--color-light);
+}
+.social-list-icon:hover,
+.social-list-icon:focus {
+color: var(--icon-color-button);
+}
+/* Customers section */
+.customers{
+    padding: 120px 0;
+}
+.customers-title{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--accent-color);
+    margin-bottom: 72px;
+}
+.customers-list {
+    display: flex;
+    gap: 24px;
+    
+}
 /* Portfolio section */
  
 .portfolio {
@@ -349,7 +385,12 @@ feature .logo {
     background: var(--accent-color);  
     padding: 100px 0;
 }
-
+.footer-wrapper {
+    display: inline-flex;
+}
+.footer-right {
+    margin-right: 120px;
+}
 footer .logo {
     display: inline-block;
     margin-bottom: 16px;
@@ -365,4 +406,37 @@ footer .logo {
     letter-spacing: 0.02em;
     line-height: 1.5;
     width: 264px;
+}
+.footer-left { 
+    width: 208px;  
+}
+.media-title {
+    color: var(--color-primary);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    margin-bottom: 8px;
+
+}
+.footer-list-icon {
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+.footer-item-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+}
+
+.footer-social-icon {
+width: 100%;
+height: 100%;
+
 }
