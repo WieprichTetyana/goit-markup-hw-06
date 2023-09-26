@@ -10,7 +10,19 @@
     --icon-second: #8E8F99;
     --icon-color-button: #31D0AA;
    
+    /* Other */
+    --items: 4;
+    --indent-col: 32px;
+    --indent-row: 32px;
+    --idx-icon: 10;
+    --idx-header: 100;
+    --idx-modal: 1000;
+    
+    --trns-fast: 300ms ease;
+    --trns-slow: 800ms ease-out;
 }
+
+
 img {
     display: block;
 }

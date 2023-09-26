@@ -15,7 +15,7 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
-}
+
 "Include svg tag": {
     "prefix": "svg",
     "body": [
@@ -25,3 +25,4 @@
     ],
     "description": "Add svg tag for html"
   },
+}
