@@ -367,8 +367,7 @@ color: var(--icon-color-button);
 .customers-item{
     height: 88px;
     calc((100% - 120px) / 6);
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-link{
     width: 100%;
@@ -471,10 +470,10 @@ color: var(--icon-color-button);
 }
 .footer-wrapper {
     display: flex;
-    align-items: center;   
+    align-items: baseline;   
 }
 .footer-right {
-    margin-right: 120px;
+    
 }
 
 footer .logo {
@@ -494,7 +493,7 @@ footer .logo {
     width: 264px;
 }
 .footer-left { 
-    width: 208px;  
+    margin-right: 120px;  
 }
 .media-text {
     color: var(--color-primary);
