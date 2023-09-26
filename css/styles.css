@@ -403,19 +403,24 @@ color: var(--icon-color-button);
     margin-bottom: 72px;
  }
 
-.portfolio-item {}
+.portfolio-item {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .portfolio-button {
     font-family: var(--primary-font);
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: var(--text-color-secondary);
-        background-color: var(--color-light);
-        cursor: pointer;
-        padding: 12px 24px;
-        border: 1px solid #e7e9fc;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--text-color-secondary);
+    background-color: var(--color-light);
+    cursor: pointer;
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
 
  }
 .portfolio-button:hover, 
@@ -425,6 +430,7 @@ color: var(--icon-color-button);
     border: 1px solid;
     border-radius: 4px;
     border: 1px solid transparent;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .portfolio-img-list {
     display: flex;
@@ -438,8 +444,14 @@ color: var(--icon-color-button);
  }
 
 .portfolio-img-link {
-    
- }
+    display: block;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio-img-link:hover,
+.portfolio-img-link:focus{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
+}
 .portfolio-wrapper {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
@@ -467,17 +479,15 @@ color: var(--icon-color-button);
 .footer > .container{
     display: flex;
     align-items: baseline;
-}
-.footer-wrapper {
-    background: var(--accent-color);  
+    background: var(--accent-color);
     padding: 100px 0;
 }
+
 .footer-right {
     margin-right: 120px; 
 }
 .footer-left { 
-    
-     
+         
 }
 footer .logo {
     display: inline-block;
@@ -520,7 +530,7 @@ footer .logo {
     border-radius: 50%;
     
 }
-.footer-link{
+.footer-icon-link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -531,8 +541,8 @@ footer .logo {
     background-color: var(--text-color-secondary);
 
 }
-.footer-link:hover,
-.footer-link:focus{
+.footer-icon-link:hover,
+.footer-icon-link:focus{
     background-color: var(--icon-color-button);
 }
 .footer-social-icon {
