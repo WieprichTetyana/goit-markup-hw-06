@@ -316,6 +316,7 @@ feature .logo {
     display: flex;
     gap: 24px;
     justify-content: center;
+    
 }
 
 .social-link-icon{
@@ -326,6 +327,7 @@ feature .logo {
     border-radius: 50%;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .social-link-icon:hover,
@@ -333,7 +335,8 @@ feature .logo {
     background-color: var(--color-secondary);
 }
 .social-icon {
-    color: var(--color-light);
+    fill: var(--color-light);
+
 }
 .social-list-icon:hover,
 .social-list-icon:focus {
