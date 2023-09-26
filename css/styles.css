@@ -464,12 +464,11 @@ color: var(--icon-color-button);
 
     /*Footer*/
 
-.footer {
-    
-}
-.footer-wrapper {
+.footer > .container{
     display: flex;
     align-items: baseline;
+}
+.footer-wrapper {
     background: var(--accent-color);  
     padding: 100px 0;
 }
