@@ -57,7 +57,19 @@
     display: block;
     padding: 24px 0;
 }
-
+.header-link::after {
+    content: "";
+    position: absolute;
+    
+    display: block;
+    width: 48px;
+    height: 4px;
+    border-radius: 2px;
+}
+.header-link.current::after,
+.header-link:active::after {
+    background-color: var(--color-secondary);
+}
 .header-address {
    font-style: normal;
 }
