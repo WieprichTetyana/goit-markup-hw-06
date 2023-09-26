@@ -53,10 +53,13 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--accent-color);
+    color: var(--color-secondary);
     display: block;
     padding: 24px 0;
     position: relative;
+    transition: color 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+
+
 }
 .header-link::after {
     content: "";
@@ -101,6 +104,7 @@
     color: var(--text-color);
     display: block;
     padding: 24px 0;
+    transition: color 250ms, cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-phone {}
@@ -172,7 +176,8 @@ header-nav > ul {
     border: none;
     border-radius: 4px;
     margin: 0 auto;
-    transition: background-color 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms; 
+    transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
@@ -479,7 +484,7 @@ height: 100%;
     background-color: rgba(46,47,66,0.4);
     backdrop-filter: blur(2px);
 
-    transition: opacity 200ms linear, visibility 200ms linear;
+    transition: oopacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 0s;
 }
 .backdrop.is-hidden {
@@ -494,17 +499,14 @@ height: 100%;
     top: 50%;
     left: 50%;
     /* transform: translateX(-50%) translateY(-50%) scale(1); */
-    transform: translateX(-50%) translateY(-50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
     width: 408px;
     min-height: 584px;
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     background-color: #fcfcfc;
-
     opacity: 1;
-
-    transition: transform 250ms cubic-bezier(0.4,0,0.2,1) 200ms,
-        opacity 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4,0,0.2,1);
 }
 .backdrop.is-hidden .modal {
     opacity: 0;
@@ -517,6 +519,8 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0p
     position: absolute;
     top: 24px;
     right: 24px;
+    width: 24px;
+    height: 24px;
 
     display: flex;
     align-items: center;
@@ -533,14 +537,11 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0p
 .modal-btn:hover,
 .modal-btn:focus {
     background-color: var(--color-secondary);
-    fill: #ffffff
+    fill: #ffffff;
+    border: none;
 }
 
 .modal-btn-icon {
     stroke: currentColor;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-svg {
-    width: 8px;
-    height: 8px;
 }
