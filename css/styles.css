@@ -528,6 +528,7 @@ footer .logo {
     height: 100%;
     border-color: var(--text-color-secondary);
     border-radius: 50%;
+    background-color: var(--text-color-secondary);
 
 }
 .footer-link:hover,
