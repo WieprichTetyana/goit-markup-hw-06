@@ -37,6 +37,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 40px;
+    color: var(--color-secondary);
 }
 
 .header-item {
