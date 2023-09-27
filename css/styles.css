@@ -149,13 +149,13 @@ header-nav > ul {
     
    
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/img-name.jpg);
-    max-width: 1440px;
+    width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin: 0 auto;
     max-width: 1440px;
-   
+    flex-shrink: 0;
     
 }
 
