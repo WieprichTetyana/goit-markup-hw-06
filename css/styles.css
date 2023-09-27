@@ -348,7 +348,10 @@ header-nav > ul {
     width: 40px;
     height: 40px;
 }
-
+.social-link-icon > svg {
+    width: 16px;
+    height: 16px;
+}
 .social-list-icon:hover,
 .social-list-icon:focus {
 color: var(--icon-color-button);
