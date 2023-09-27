@@ -583,7 +583,7 @@ footer .logo {
     background-color: var(--icon-color-button);
 }
 .footer-icon-link:focus{
-    
+    background-color: var(--icon-color-button);
 }
 .footer-social-icon {
     fill: var(--color-light);
