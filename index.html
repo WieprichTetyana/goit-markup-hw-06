@@ -394,7 +394,7 @@
             digital marketing & growth solutions.
           </p>
         </div>
-        <div class="footer-left">
+        <div class="footer-center">
           <p class="media-text">Social media</p>
           <ul class="footer-list-icon list">
             <li class="footer-item-icon">
@@ -427,6 +427,9 @@
             </li>
           </ul>
         </div>
+        <div class="footer-right">
+          <p class="media-text">Subscribe</p>
+        </div>
       </div>
     </footer>
 
@@ -434,13 +437,70 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-btn" data-modal-close>
-          <svg class="modal-btn-icon" width="8" height="8">
+          <svg class="modal-btn-icon" width="24" height="24">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+        <strong class="modal-caption">
+          Leave your contacts and we will call you back
+        </strong>
+
+        <form class="modal-form" name="reviews-form">
+          <label class="modal-label" for="reviews_user_name"> Name </label>
+          <div class="modal-field">
+            <input
+              class="modal-input"
+              type="text"
+              name="reviews_user_name"
+              id="reviews_user_name"
+              required
+              minlength="2"
+            />
+          </div>
+          <label class="modal-label" for="reviews_user_phone"> Phone </label>
+          <div class="modal-field">
+            <input
+              class="modal-input"
+              type="tel"
+              name="reviews_user_phone"
+              id="reviews_user_phone"
+            />
+          </div>
+          <label class="modal-label" for="reviews_user_email"> Email </label>
+          <div class="modal-field">
+            <input
+              class="modal-input"
+              type="email"
+              name="reviews_user_email"
+              id="reviews_user_email"
+              required
+              placeholder=""
+            />
+          </div>
+          <div class="modal-coment">
+            <label class="modal-label" for="reviews_user_comment">
+              Comment
+            </label>
+            <textarea
+              class="modal-coment-field"
+              name="reviews_user_comment"
+              id="reviews_user_comment"
+              rows="4"
+              placeholder="Text input"
+              required
+              minlength="8"
+            ></textarea>
+          </div>
+
+          <button class="hero-button btn" type="submit">Send</button>
+        </form>
       </div>
     </div>
 
+    <!-- Libs -->
+    <script src="./js/inputmask.min.js"></script>
+    <!-- Custom js files -->
+    <script src="./js/form.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
