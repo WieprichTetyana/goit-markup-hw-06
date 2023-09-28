@@ -429,8 +429,9 @@
         </div>
         <div class="footer-right">
           <p class="media-text">Subscribe</p>
+          
           <form class="footer-form" name="subscribe-form"></label>
-            <label class="footer-label" for="subscribe-user-email">
+            <label class="footer-label" for="subscribe_user_email">
                 <input 
                 class="footer-input" 
                 type="email" 
@@ -440,7 +441,7 @@
                 />
             </label>
             <button class="footer-btn" type="submit">
-              Subscripe
+              Subscribe
               <svg class="footer-subsc-icon" width="24" height="24">
               <use href="./images/icons.svg#icon-subscribe"></use>
               </svg>
@@ -458,57 +459,61 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <strong class="modal-caption">
+        <p class="modal-caption">
           Leave your contacts and we will call you back
-        </strong>
+        </p>
 
-        <form class="modal-form" name="reviews-form">
-          <label class="modal-label" for="reviews_user_name"> Name </label>
+        <form class="modal-form" name="order-form">
+          <label class="modal-label" for="order_user_name"> 
+            Name 
           <div class="modal-field">
             <input
               class="modal-input"
               type="text"
-              name="reviews_user_name"
-              id="reviews_user_name"
+              name="order_user_name"
+              id="order_user_name"
               required
               minlength="2"
             />
           </div>
-          <label class="modal-label" for="reviews_user_phone"> Phone </label>
+        </label>
+          <label class="modal-label" for="order_user_phone">Phone 
           <div class="modal-field">
             <input
               class="modal-input"
               type="tel"
-              name="reviews_user_phone"
-              id="reviews_user_phone"
+              name="order_user_phone"
+              id="order_user_phone"
             />
           </div>
-          <label class="modal-label" for="reviews_user_email"> Email </label>
+          </label>
+          <label class="modal-label" for="order_user_email">E-mail
           <div class="modal-field">
             <input
               class="modal-input"
               type="email"
-              name="reviews_user_email"
-              id="reviews_user_email"
+              name="order_user_email"
+              id="order_user_email"
               required
               placeholder=""
             />
           </div>
-          <div class="modal-coment">
-            <label class="modal-label" for="reviews_user_comment">
+          </label>
+          
+          <label class="modal-label" for="order_user_comment">
               Comment
-            </label>
+          <div class="modal-coment">
             <textarea
               class="modal-coment-field"
-              name="reviews_user_comment"
-              id="reviews_user_comment"
+              name="order_user_comment"
+              id="order_user_comment"
               rows="4"
               placeholder="Text input"
               required
-              minlength="8"
-            ></textarea>
+              minlength="8">
+            </textarea>
           </div>
-
+          </label>
           <button class="hero-button btn" type="submit">Send</button>
         </form>
       </div>
