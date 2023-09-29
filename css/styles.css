@@ -816,7 +816,7 @@ footer .logo {
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);   
 }
-.modal-coment-field:focus {
+.modal-coment-field:focus-within {
     border-color: var(--text-color-secondary);
 }
 .textaria{
