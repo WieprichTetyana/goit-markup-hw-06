@@ -725,10 +725,13 @@ footer .logo {
 .modal-btn:hover,
 .modal-btn:focus {
     background-color: var(--color-secondary);
-    fill: #ffffff;
+    
     border: none;
 }
-
+.modal-btn:hover .modal-btn-icon,
+.modal-btn:focus .modal-btn-icon {
+    fill: #ffffff;
+}
 .modal-btn-icon {
     display: block;
     stroke: currentColor;
@@ -745,8 +748,7 @@ footer .logo {
     margin-bottom: 16px;
 }
 .modal-form{
-    margin-left: 24px;
-    margin-right: 24px;
+    
     margin-bottom: 24px;
 }
 .modal-label {
@@ -842,15 +844,22 @@ footer .logo {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
+    background-color: var(--color-primary);
 }
 .modal-agreement-link{
     color: var(--text-color-secondary);
 }
-.modal-checkbox-icon{
 
+.modal-agreement-input{
+    appearance: none;
 }
-.modal-agreement-input:checked+.modal-agreement>.modal-checkbox-icon {
+.modal-agreement-input:checked + .modal-agreement .modal-checkbox-icon {
+
+    fill: var(--color-primary);
+}
+.modal-agreement-input:checked + .modal-agreement > .modal-policy {
     background-color: var(--color-secondary);
     border: none;
-    fill: var(--color-light)
+    /*fill: transparent;*/
 }
