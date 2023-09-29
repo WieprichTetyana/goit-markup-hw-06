@@ -823,6 +823,7 @@ footer .logo {
     margin-bottom: 16px;
 }
 .agreem{
+    
     margin-bottom: 24px;
 }
 .modal-agreement{
@@ -850,7 +851,7 @@ footer .logo {
 .modal-checkbox-icon{
 
 }
-.modal-agreement-input:checked+.modal-checkbox-icon {
+.modal-agreement-input:checked>.modal-checkbox-icon {
     background-color: var(--color-secondary);
     border: none;
     fill: var(--color-light)
