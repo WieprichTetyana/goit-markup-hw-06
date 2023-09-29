@@ -831,6 +831,7 @@ footer .logo {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--icon-second);
+    font-size: 12px;
 }
 .modal-policy{
     width: 16px;
@@ -845,4 +846,12 @@ footer .logo {
 }
 .modal-agreement-link{
     color: var(--text-color-secondary);
+}
+.modal-checkbox-icon{
+
+}
+.modal-agreement-input:checked+.modal-checkbox-icon {
+    background-color: var(--color-secondary);
+    border: none;
+    fill: var(--color-light)
 }
