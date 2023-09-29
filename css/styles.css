@@ -819,3 +819,6 @@ footer .logo {
 .modal-coment-field:focus {
     border-color: var(--text-color-secondary);
 }
+.modal-container-form .textaria{
+    margin-bottom: 16px;
+}
