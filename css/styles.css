@@ -808,7 +808,7 @@ footer .logo {
     line-height: 1.17em;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
-    border: 1px solid rgba(46, 47, 66, 0.04);
+    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     background-color: transparent;   
     padding: 8px 16px;
@@ -819,6 +819,6 @@ footer .logo {
 .modal-coment-field:focus {
     border-color: var(--text-color-secondary);
 }
-.modal-container-form .textaria{
+.textaria{
     margin-bottom: 16px;
 }
