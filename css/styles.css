@@ -779,6 +779,7 @@ footer .logo {
 .modal-input:focus{
     border-color: var(--text-color-secondary);
 }
+
 .modal-container-form{
     margin-bottom: 8px;
 }
@@ -790,12 +791,10 @@ footer .logo {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-.modal-input:focus > .modal-icon{
+.modal-input:focus + .modal-icon{
     fill: var(--text-color-secondary);
 }
-.error {}
 
-.warning {}
 
 .modal-coment {
     
@@ -823,7 +822,6 @@ footer .logo {
     margin-bottom: 16px;
 }
 .agreem{
-    
     margin-bottom: 24px;
 }
 .modal-agreement{
@@ -851,7 +849,7 @@ footer .logo {
 .modal-checkbox-icon{
 
 }
-.modal-agreement-input:checked>.modal-checkbox-icon {
+.modal-agreement-input:checked+.modal-agreement>.modal-checkbox-icon {
     background-color: var(--color-secondary);
     border: none;
     fill: var(--color-light)
