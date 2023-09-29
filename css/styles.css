@@ -855,11 +855,10 @@ footer .logo {
     appearance: none;
 }
 .modal-agreement-input:checked + .modal-agreement .modal-checkbox-icon {
-
     fill: var(--color-primary);
 }
 .modal-agreement-input:checked + .modal-agreement > .modal-policy {
     background-color: var(--color-secondary);
     border: none;
-    /*fill: transparent;*/
+    fill: var(--color-light);
 }
