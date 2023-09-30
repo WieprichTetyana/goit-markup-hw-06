@@ -21,7 +21,36 @@
     --trns-fast: 300ms ease;
     --trns-slow: 800ms ease-out;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
 
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
 
 img {
     display: block;
@@ -308,7 +337,7 @@ header-nav > ul {
     padding: 120px 0;
   }
 }
-@media only screen and (max-width: 767.98px) {
+@media only screen and (min-width: 1157.98px) {
 .feature-wrapper {
     display: none;
   }
@@ -363,7 +392,7 @@ header-nav > ul {
 
 /* Made section */
 
-@media only screen and (max-width: 1157.98px) {
+@media only screen and (min-width: 1157.98px) {
   .made {
     display: none;
   }
