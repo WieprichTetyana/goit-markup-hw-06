@@ -17,7 +17,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="css/mobil.css" />
+
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -56,7 +56,12 @@
             </li>
           </ul>
         </address>
-        <button class="toogle-menu" type="button">
+        <button
+          class="toogle-menu js-open-menu"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
           <svg class="toogle-menu-icon" width="28" height="28">
             <use href="./images/icons.svg#icon-menu"></use>
           </svg>
@@ -561,25 +566,25 @@
 
       <ul class="mobile-menu list">
         <li class="mobile-menu-item">
-          <a class="mobile-menu-link link" href="">Studio</a>
+          <a class="mobile-menu-link current" href="">Studio</a>
         </li>
         <li class="mobile-menu-item">
-          <a class="mobile-menu-link link" href="">Portfolio</a>
+          <a class="mobile-menu-link" href="">Portfolio</a>
         </li>
         <li class="mobile-menu-item">
-          <a class="mobile-menu-link link" href="">Contacts</a>
+          <a class="mobile-menu-link" href="">Contacts</a>
         </li>
       </ul>
 
       <ul class="mobile-contacts list">
         <li class="mobile-contacts-item">
-          <a class="mobile-contacts-link link" href="mailto:info@devstudio.com"
-            >info@devstudio.com
+          <a class="mobile-contacts-link accent" href="tel:+110001111111">
+            +11 (000) 111-11-11
           </a>
         </li>
         <li class="mobile-contacts-item">
-          <a class="mobile-contacts-link link" href="tel:+110001111111">
-            +11 (000) 111-11-11
+          <a class="mobile-contacts-link" href="mailto:info@devstudio.com"
+            >info@devstudio.com
           </a>
         </li>
       </ul>
