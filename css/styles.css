@@ -1,3 +1,26 @@
+/* Phone screen */
+.container {
+    min-width: 428px;
+    max-width: 432px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+/* Tablet screen */
+@media screen and (min-width: 768px) {
+.container {
+        max-width: 736px;
+    }
+}
+
+/* Desktop screen */
+@media screen and (min-width: 1158px) {
+.container {
+        max-width: 1158px;
+    }
+}
+
+
 /* Header */
 .header {
     background-color: var(--color-primary);
@@ -205,7 +228,17 @@ header-nav > ul {
  
 /* Feature section*/
 .feature {
+    padding: 96px 0;
+}
+@media only screen and (min-width: 1158px) {
+.feature {
     padding: 120px 0;
+  }
+}
+@media only screen and (min-width: 1158px) {
+  .feature-wrapper {
+    
+  }
 }
 .feature-wrapper {
     display: flex;
@@ -236,7 +269,7 @@ header-nav > ul {
 }
 
 .feature-item {
-    flex-basis: calc((100% - 72px) / 4);
+    /*flex-basis: calc((100% - 72px) / 4);*/
 
 }
 
@@ -257,6 +290,11 @@ header-nav > ul {
 
 /* Made section */
 
+@media only screen and (min-width: minwidthpx) {
+  .made {
+    
+  }
+}
 .made {
     padding: 0 0 120px;
 }

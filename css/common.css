@@ -35,13 +35,7 @@ body {
 a {
     text-decoration: none;
 }
- .container {
-    max-width: 1158px;
-    margin-left: auto;
-    margin-right: auto ;
-    padding-left: 15px;
-    padding-right: 15px;
-} 
+
 .visually-hidden {
     position: absolute;
     width: 1px;
