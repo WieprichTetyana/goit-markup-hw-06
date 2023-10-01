@@ -468,12 +468,14 @@ header-nav > ul {
 
 /* Made section */
 
-
 .made {
+    display: none;
+}
+@media only screen and (min-width: 1158px) {
+  .made {
+    display: block;
     padding: 0 0 120px;
-
-  
-    
+  }
 }
 .made-subtitle {
     font-size: 36px;
