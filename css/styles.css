@@ -226,6 +226,7 @@ a {
 @media only screen and (min-width: 768px) {
   .header-address {
     display: block;
+    font-style: normal;
   }
 }
 
@@ -268,6 +269,7 @@ a {
 @media only screen and (min-width: 1158px) {
   .header-social-link {
     padding: 24px 0;
+    font-style: 12px;
   }
 }
 .header-phone {
@@ -293,8 +295,6 @@ header-nav > ul {
   font-weight: 400;
 }
 .header-social-link {
-  margin-bottom: 12px;
-  margin-top: 16px;
 }
 .header-social-link:hover,
 .header-social-link:focus {
@@ -313,7 +313,7 @@ header-nav > ul {
   max-height: 436px;
   margin: 0 auto;
   padding-top: 112px;
-  padding: 54px;
+  padding: 54px 0;
 
   background-color: var(--accent-color);
 
@@ -394,7 +394,7 @@ header-nav > ul {
   letter-spacing: 0.02em;
 
   display: block;
-  width: 320px;
+  max-width: 496px;
 
   text-align: center;
   padding-bottom: 72px;
@@ -402,9 +402,9 @@ header-nav > ul {
 }
 @media only screen and (min-width: 768px) {
   .hero-title {
-    width: 496px;
     font-size: 56px;
-    padding-bottom: 36px;
+    margin-bottom: 36px;
+    padding-bottom: 0;
   }
 }
 @media only screen and (min-width: 1158px) {
@@ -472,6 +472,7 @@ header-nav > ul {
 }
 .feature-list {
   --items: 1;
+  row-gap: 72px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -502,6 +503,7 @@ header-nav > ul {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    text-align: left;
   }
 }
 
@@ -510,7 +512,6 @@ header-nav > ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 72px;
 }
 @media only screen and (min-width: 1158px) {
   .feature-text {
@@ -569,7 +570,11 @@ header-nav > ul {
   align-items: center;
   justify-content: center;
 }
-
+@media screen and (min-width: 768px) {
+  .team-list {
+    row-gap: 64px;
+  }
+}
 .team-item {
   width: 264px;
   background-color: var(--color-primary);
@@ -842,7 +847,7 @@ header-nav > ul {
   .footer > .container {
     flex-direction: row;
     column-gap: 24px;
-    margin-left: 108px;
+    padding-left: 108px;
   }
 }
 @media screen and (min-width: 1158px) {
@@ -851,6 +856,7 @@ header-nav > ul {
     padding: 100px 0;
     margin-left: 155px;
     flex-wrap: nowrap;
+    column-gap: 0;
   }
 }
 .footer-left {
@@ -864,7 +870,7 @@ header-nav > ul {
 }
 @media screen and (min-width: 1158px) {
   .footer-center {
-    margin-right: px;
+    margin: 0 80px 0 120px;
   }
 }
 footer .logo {
