@@ -1085,7 +1085,8 @@ footer .logo {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  width: 392px;
+  max-width: 392px;
+  width: 100%;
   min-height: 584px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -1096,8 +1097,6 @@ footer .logo {
 }
 @media screen and (min-wight: 768px) {
   .modal {
-    width: 408px;
-    padding: 72px 24px 24px 24px;
   }
 }
 .backdrop.is-hidden .modal {
@@ -1368,40 +1367,40 @@ footer .logo {
 }
 
 .mobile-contacts {
-  margin-bottom: 48px;
 }
 
 .mobile-contacts-item {
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .mobile-contacts-link {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2em;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
   color: var(--text-color);
 }
 .mobile-contacts-link.accent {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11em;
-  letter-spacing: 0.02px;
+  letter-spacing: 0.02em;
   color: var(--text-color-secondary);
 }
-
-.mobile-socials {
+.mobil-socials {
+  margin-top: 48px;
+}
+.mobile-socials-list {
   display: inline-flex;
   align-items: flex-start;
-  gap: 56px;
 }
 @media only screen and (max-width: 427.98px) {
-  .mobile-socials {
+  .mobile-socials-list {
     justify-content: space-between;
   }
 }
 @media only screen and (min-width: 428px) {
-  .mobile-socials {
+  .mobile-socials-list {
     gap: 56px;
     justify-content: flex-start;
   }
