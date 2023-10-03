@@ -259,17 +259,22 @@ a {
   display: flex;
 }
 .header-social-link {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
   color: var(--text-color);
   display: block;
   padding: 0;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 12px;
 }
+
 @media only screen and (min-width: 1158px) {
   .header-social-link {
     padding: 24px 0;
-    font-style: 12px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
   }
 }
 .header-phone {
@@ -312,8 +317,8 @@ header-nav > ul {
   max-width: 428px;
   max-height: 436px;
   margin: 0 auto;
-  padding-top: 112px;
-  padding: 54px 0;
+
+  padding: 112px 0;
 
   background-color: var(--accent-color);
 
@@ -328,7 +333,7 @@ header-nav > ul {
     ),
     url(../images/hero/hero_mob.jpg);
 }
-@media only screen and (max-width: 767.98px) and (min-resolution: 192dpi) {
+@media only screen and (max-width: 427.98px) and (min-resolution: 192dpi) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -338,11 +343,10 @@ header-nav > ul {
   }
 }
 /*-- Tablet--*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 428px) {
   .hero {
-    padding: 136px 0;
     max-width: 768px;
-    /*min-height: 436px;*/
+
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -350,7 +354,7 @@ header-nav > ul {
       url(../images/hero/hero_tab.jpg);
   }
 }
-@media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
+@media only screen and (min-width: 428px) and (min-resolution: 192dpi) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -360,7 +364,7 @@ header-nav > ul {
   }
 }
 /* -- Desktop --*/
-@media only screen and (min-width: 1158px) {
+@media only screen and (min-width: 768px) {
   .hero {
     padding: 188px 0;
     max-width: 1440px;
@@ -372,7 +376,7 @@ header-nav > ul {
       url(../images/hero/hero_desk.jpg);
   }
 }
-@media only screen and (min-width: 1158px) and (min-resolution: 192dpi) {
+@media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -397,8 +401,8 @@ header-nav > ul {
   width: 320px;
 
   text-align: center;
-  padding-bottom: 72px;
-  margin: 0 auto;
+
+  margin: 0 auto 72px;
 }
 @media only screen and (min-width: 768px) {
   .hero-title {
@@ -497,13 +501,14 @@ header-nav > ul {
   line-height: 1.1;
   color: var(--accent-color);
   margin-bottom: 8px;
-  text-align: left;
+  text-align: center;
 }
 @media only screen and (min-width: 1158px) {
   .feature-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    text-align: left;
   }
 }
 
@@ -550,7 +555,12 @@ header-nav > ul {
 
 .team {
   background-color: var(--color-light);
-  padding: 120px 0;
+  padding: 96px 0;
+}
+@media screen and (min-width: 1158px) {
+  .team {
+    padding: 120px 0;
+  }
 }
 .team-img {
 }
@@ -566,13 +576,14 @@ header-nav > ul {
 
 .team-list {
   display: flex;
-  gap: 24px;
+  gap: 72px;
   align-items: center;
   justify-content: center;
 }
 @media screen and (min-width: 768px) {
   .team-list {
     row-gap: 64px;
+    column-gap: 24px;
   }
 }
 .team-item {
@@ -665,7 +676,12 @@ header-nav > ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--accent-color);
-  margin-bottom: 72px;
+  margin-bottom: 96px;
+}
+@media screen and (min-width: 1158px) {
+  .customers-title {
+    margin-bottom: 120px;
+  }
 }
 .customers-list {
   --items: 2;
@@ -833,13 +849,8 @@ header-nav > ul {
 */
 .footer {
   background: var(--accent-color);
-  padding: 100px 0;
 }
-@media screen and (min-width: 1158px) {
-  .footer {
-    /*padding: 100px 0;*/
-  }
-}
+
 .footer > .container {
   display: flex;
   flex-direction: column;
@@ -859,7 +870,7 @@ header-nav > ul {
 @media screen and (min-width: 1158px) {
   .footer > .container {
     align-items: baseline;
-    padding: 0 15px;
+    padding: 101px 15px;
 
     flex-wrap: nowrap;
     column-gap: 0;
@@ -1026,12 +1037,10 @@ footer .logo {
   border: none;
   border-radius: 4px;
   margin-top: 24px;
-  margin-bottom: 96px;
 }
 @media screen and (min-width: 768px) {
   .footer-btn {
     margin-top: 0;
-    margin-bottom: 0;
   }
 }
 .footer-subsc-icon {
@@ -1262,7 +1271,7 @@ footer .logo {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 16px;
+
   padding: 0;
   border: none;
   background-color: transparent;
