@@ -394,7 +394,7 @@ header-nav > ul {
   letter-spacing: 0.02em;
 
   display: block;
-  max-width: 496px;
+  width: 320px;
 
   text-align: center;
   padding-bottom: 72px;
@@ -405,6 +405,7 @@ header-nav > ul {
     font-size: 56px;
     margin-bottom: 36px;
     padding-bottom: 0;
+    width: 496px;
   }
 }
 @media only screen and (min-width: 1158px) {
@@ -979,6 +980,7 @@ footer .logo {
     text-align: center;
   }
 }
+
 .footer-input {
   height: 40px;
   border: 1px solid var(--color-primary);
