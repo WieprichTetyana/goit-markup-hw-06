@@ -340,9 +340,9 @@ header-nav > ul {
 /*-- Tablet--*/
 @media only screen and (min-width: 768px) {
   .hero {
-    padding: 136px;
+    padding: 136px 0;
     max-width: 768px;
-    min-height: 436px;
+    /*min-height: 436px;*/
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -410,7 +410,7 @@ header-nav > ul {
 }
 @media only screen and (min-width: 1158px) {
   .hero-title {
-    padding-bottom: 48px;
+    margin-bottom: 48px;
   }
 }
 .hero-button {
@@ -497,14 +497,13 @@ header-nav > ul {
   line-height: 1.1;
   color: var(--accent-color);
   margin-bottom: 8px;
-  text-align: center;
+  text-align: left;
 }
 @media only screen and (min-width: 1158px) {
   .feature-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    text-align: left;
   }
 }
 
@@ -834,6 +833,12 @@ header-nav > ul {
 */
 .footer {
   background: var(--accent-color);
+  padding: 100px 0;
+}
+@media screen and (min-width: 1158px) {
+  .footer {
+    /*padding: 100px 0;*/
+  }
 }
 .footer > .container {
   display: flex;
@@ -854,8 +859,8 @@ header-nav > ul {
 @media screen and (min-width: 1158px) {
   .footer > .container {
     align-items: baseline;
-    padding: 100px 0;
-    margin-left: 155px;
+    padding: 0 15px;
+
     flex-wrap: nowrap;
     column-gap: 0;
   }
@@ -878,6 +883,7 @@ footer .logo {
   display: inline-block;
   margin-bottom: 16px;
   padding-bottom: 0;
+  padding-top: 0;
 }
 
 .footer-link {
