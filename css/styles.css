@@ -371,7 +371,6 @@ header-nav > ul {
 /* -- Desktop --*/
 @media only screen and (min-width: 768px) {
   .hero {
-    padding: 188px 0;
     max-width: 1440px;
     max-height: 600px;
     background-image: linear-gradient(
@@ -379,6 +378,11 @@ header-nav > ul {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/hero/hero_desk.jpg);
+  }
+}
+@media only screen and (min-width: 1158px) {
+  .hero {
+    padding: 188px 0;
   }
 }
 @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
@@ -508,12 +512,16 @@ header-nav > ul {
   margin-bottom: 8px;
   text-align: center;
 }
+@media only screen and (min-width: 768px) {
+  .feature-subtitle {
+    text-align: left;
+  }
+}
 @media only screen and (min-width: 1158px) {
   .feature-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    text-align: left;
   }
 }
 
@@ -674,11 +682,7 @@ header-nav > ul {
     max-width: 584px;
   }
 }
-@media screen and (min-width: 1158px) {
-  .customers-container {
-    padding: 120px 0;
-  }
-}
+
 .customers-title {
   font-size: 36px;
   line-height: 1.11;
@@ -686,13 +690,9 @@ header-nav > ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--accent-color);
-  margin-bottom: 96px;
+  margin-bottom: 72px;
 }
-@media screen and (min-width: 1158px) {
-  .customers-title {
-    margin-bottom: 72px;
-  }
-}
+
 .customers-list {
   --items: 2;
   --indent-horizontal: 72px;
@@ -788,7 +788,7 @@ header-nav > ul {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  gap: 24px;
+  column-gap: 24px;
 }
 .position-wrapper {
   position: relative;
@@ -1080,12 +1080,12 @@ footer .logo {
 }
 
 .modal {
-  padding: 72px 24px 24px 24px;
+  padding: 72px 16px 24px 16px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  width: 408px;
+  width: 392px;
   min-height: 584px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -1093,6 +1093,12 @@ footer .logo {
   background-color: #fcfcfc;
   opacity: 1;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (min-wight: 768px) {
+  .modal {
+    width: 408px;
+    padding: 72px 24px 24px 24px;
+  }
 }
 .backdrop.is-hidden .modal {
   transform: translateX(-50%) translateY(-70%);
@@ -1362,7 +1368,6 @@ footer .logo {
 }
 
 .mobile-contacts {
-  width: 353px;
   margin-bottom: 48px;
 }
 
